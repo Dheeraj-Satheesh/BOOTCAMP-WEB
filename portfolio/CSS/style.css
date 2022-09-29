@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;600&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+body
+{
+    font-family: 'Poppins', sans-serif; 
+}
+.box
+{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('../Images/banner10.jpg');  
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 70px;
+    background-color: pink;
+}
+.logo
+{
+    font-size: 30px;
+    color: green;
+}
+.logo span
+{
+    color: green;
+    font-family:'Lobster',cursive;
+}
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size:18px
+} 
+nav ul li a:hover
+{
+    color:blueviolet;
+    transition:0.5s;
+}
+nav button
+{
+    padding:12px 30px;
+    border-radius: 30px;
+    font-weight:bold;
+    border:none;
+    background:orangered;
+    color:white;
+    font-size: 15px;
+}
+nav button:hover
+{
+    background-color: blue;
+    transform:scale(1.1);
+    transition:0.5s;
+    cursor: pointer;
+}
+.banner-text
+{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    transition:0.5s;
+}
+.banner-text h1
+{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+h2
+{
+    font-family:'Lobster',cursive;
+    font-size: 100px;
+    color:white;
+    margin-bottom: 40px;
+}
+.banner-text span
+{
+    color:orangered;
+    font-family:'Lobster',cursive;
+}
+.banner-text p
+{
+    font-size: 25px;
+    color: darkred;
+}
